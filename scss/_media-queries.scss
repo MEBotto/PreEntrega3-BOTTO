@@ -11,7 +11,7 @@
   .subtheme-text {
       font-size: 30px;
   }
-  .description-text {
+  .subtitle-description_text {
       font-size: medium;
   }
 }
@@ -29,7 +29,7 @@
   .subtheme-text {
       font-size: 50px;
   }
-  .description-text {
+  .subtitle-description_text {
       font-size: large;
   }
 }
@@ -47,7 +47,25 @@
   .subtheme-text {
       font-size: 60px;
   }
-  .description-text {
+  .subtitle-description_text {
       font-size: xx-large;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .description-text {
+      font-size: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .description-text {
+      font-size: 22px;
+  }
+}
+
+@media (min-width: 1025px){
+  .description-text {
+      font-size: 18px;
   }
 }

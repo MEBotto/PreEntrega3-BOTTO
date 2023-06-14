@@ -1,9 +1,45 @@
-#navbarNavAltMarkup {
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url(../assets/fonts/gilroy-extrabold.otf);
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url(../assets/fonts/gilroy-light.otf);
+}
+header {
+  background-color: #F7F7F8;
+}
+header #navbarNavAltMarkup {
   justify-content: center;
+}
+header .nav-link:hover {
+  color: red;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
+}
+header .navbar-brand:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
 }
 
 body {
   background-color: white;
+}
+body .row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body .card {
+  margin: 10px 0px;
+}
+body .card:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  z-index: 999;
+}
+body .btn-primary:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
 }
 
 .inicio-bg-1 {
@@ -209,18 +245,17 @@ body {
 
 .description-text {
   font-family: "Gilroy-Light";
+  text-align: justify;
   color: black;
   z-index: 999;
 }
 
-@font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url(../assets/fonts/gilroy-extrabold.otf);
-}
-@font-face {
+.subtitle_description-text {
   font-family: "Gilroy-Light";
-  src: url(../assets/fonts/gilroy-light.otf);
+  color: black;
+  z-index: 999;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -239,7 +274,7 @@ body {
   .subtheme-text {
     font-size: 30px;
   }
-  .description-text {
+  .subtitle-description_text {
     font-size: medium;
   }
 }
@@ -256,7 +291,7 @@ body {
   .subtheme-text {
     font-size: 50px;
   }
-  .description-text {
+  .subtitle-description_text {
     font-size: large;
   }
 }
@@ -273,9 +308,34 @@ body {
   .subtheme-text {
     font-size: 60px;
   }
-  .description-text {
+  .subtitle-description_text {
     font-size: xx-large;
   }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .description-text {
+    font-size: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .description-text {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1025px) {
+  .description-text {
+    font-size: 18px;
+  }
+}
+footer {
+  background-color: #F7F7F8;
+}
+footer .imagen-footer {
+  margin-top: 10px;
+}
+footer .imagen-footer:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=main.css.map */
