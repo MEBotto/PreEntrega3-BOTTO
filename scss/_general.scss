@@ -15,11 +15,10 @@ body {
     margin: 10px 0px;
 
     &:hover {
-      @include transitionScale(1.1);
-      z-index: 999;
+      @include transitionScale(1.05);
     }
   }
-  
+
   .btn-primary:hover {
     @include transitionScale(1.1);
 

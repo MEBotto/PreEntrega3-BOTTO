@@ -34,8 +34,7 @@ body .card {
 }
 body .card:hover {
   transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
-  z-index: 999;
+  transform: scale(1.05);
 }
 body .btn-primary:hover {
   transition: all 0.2s ease-in-out;
