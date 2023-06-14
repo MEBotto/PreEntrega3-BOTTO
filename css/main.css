@@ -166,4 +166,17 @@
   background-image: url(../assets/img/contactoback3.jpg);
 }
 
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url(../assets/fonts/gilroy-extrabold.otf);
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url(../assets/fonts/gilroy-light.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
 /*# sourceMappingURL=main.css.map */
