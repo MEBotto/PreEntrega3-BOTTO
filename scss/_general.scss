@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 @each $lugar in inicio, tokyo, osaka, kyoto, okinawa, fukuoka, kobe, contacto {
   @for $i from 1 through 3 {
     .#{$lugar}-bg-#{$i} {
@@ -8,3 +12,31 @@
     }
   }
 }
+
+@each $tipoTexto in nav, title, card-title, subtitle, subtheme, description {
+  .#{$tipoTexto}-text {
+    @if $tipoTexto == "description" {
+      font-family: "Gilroy-Light";
+    }
+    @else {
+      font-family: "Gilroy-ExtraBold";
+    }
+
+    @if $tipoTexto == "title" or $tipoTexto == "card-title" {
+      color: white;
+      @if $tipoTexto == "title" {
+        display: inline-flex;
+      }  
+    }
+    @else {
+      color: black;
+      @if $tipoTexto == "nav" {
+        font-size: large;
+      }
+      @if $tipoTexto == "subtitle" {
+        margin-top: 40px;
+      }
+    }
+    z-index: 999;
+  }
+} 
