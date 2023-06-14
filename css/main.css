@@ -1,3 +1,169 @@
+.inicio-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/inicioback1.jpg);
+}
 
+.inicio-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/inicioback2.jpg);
+}
+
+.inicio-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/inicioback3.jpg);
+}
+
+.tokyo-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/tokyoback1.jpg);
+}
+
+.tokyo-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/tokyoback2.jpg);
+}
+
+.tokyo-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/tokyoback3.jpg);
+}
+
+.osaka-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/osakaback1.jpg);
+}
+
+.osaka-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/osakaback2.jpg);
+}
+
+.osaka-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/osakaback3.jpg);
+}
+
+.kyoto-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kyotoback1.jpg);
+}
+
+.kyoto-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kyotoback2.jpg);
+}
+
+.kyoto-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kyotoback3.jpg);
+}
+
+.okinawa-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/okinawaback1.jpg);
+}
+
+.okinawa-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/okinawaback2.jpg);
+}
+
+.okinawa-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/okinawaback3.jpg);
+}
+
+.fukuoka-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/fukuokaback1.jpg);
+}
+
+.fukuoka-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/fukuokaback2.jpg);
+}
+
+.fukuoka-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/fukuokaback3.jpg);
+}
+
+.kobe-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kobeback1.jpg);
+}
+
+.kobe-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kobeback2.jpg);
+}
+
+.kobe-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kobeback3.jpg);
+}
+
+.contacto-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/contactoback1.jpg);
+}
+
+.contacto-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/contactoback2.jpg);
+}
+
+.contacto-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/contactoback3.jpg);
+}
 
 /*# sourceMappingURL=main.css.map */

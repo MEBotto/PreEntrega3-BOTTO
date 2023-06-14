@@ -1,0 +1,10 @@
+@each $lugar in inicio, tokyo, osaka, kyoto, okinawa, fukuoka, kobe, contacto {
+  @for $i from 1 through 3 {
+    .#{$lugar}-bg-#{$i} {
+      height: 100vh;
+      background-size: cover;
+      background-position: center center;
+      background-image: url(../assets/img/#{$lugar}back#{$i}.jpg);
+    }
+  }
+}
